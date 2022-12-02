@@ -1,0 +1,44 @@
+.toDoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.Ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Li-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.btn-Container button {
+  margin: 10px;
+}
+
+.Form-Div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.Form-Div button {
+  width: 100px;
+  margin-top: 20px;
+}
